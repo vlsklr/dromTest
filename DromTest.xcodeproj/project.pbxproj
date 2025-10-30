@@ -6,30 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FA2BE3C2EB30CA300028B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE282EB30CA300028B3F /* AppDelegate.swift */; };
+		1FA2BE3D2EB30CA300028B3F /* PictureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE2D2EB30CA300028B3F /* PictureItem.swift */; };
+		1FA2BE3E2EB30CA300028B3F /* FetchImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE312EB30CA300028B3F /* FetchImageService.swift */; };
+		1FA2BE3F2EB30CA300028B3F /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE332EB30CA300028B3F /* PictureCollectionViewCell.swift */; };
+		1FA2BE402EB30CA300028B3F /* PictureCollectionViewCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE342EB30CA300028B3F /* PictureCollectionViewCellPresenter.swift */; };
+		1FA2BE412EB30CA300028B3F /* DisplayPicturesCollectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE362EB30CA300028B3F /* DisplayPicturesCollectionInteractor.swift */; };
+		1FA2BE422EB30CA300028B3F /* DisplayPicturesCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE372EB30CA300028B3F /* DisplayPicturesCollectionPresenter.swift */; };
+		1FA2BE432EB30CA300028B3F /* DisplayPicturesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE382EB30CA300028B3F /* DisplayPicturesCollectionViewController.swift */; };
+		1FA2BE452EB30CA300028B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA2BE2B2EB30CA300028B3F /* LaunchScreen.storyboard */; };
+		1FA2BE462EB30CA300028B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA2BE2F2EB30CA300028B3F /* Assets.xcassets */; };
+		1FA2BE4A2EB30F4D00028B3F /* DisplayPicturesCollectionAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BE492EB30F4D00028B3F /* DisplayPicturesCollectionAssembly.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FA2BDF92EB1E7F100028B3F /* DromTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DromTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA2BE282EB30CA300028B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FA2BE292EB30CA300028B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DromTest/Application/Info.plist; sourceTree = SOURCE_ROOT; };
+		1FA2BE2A2EB30CA300028B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FA2BE2D2EB30CA300028B3F /* PictureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureItem.swift; sourceTree = "<group>"; };
+		1FA2BE2F2EB30CA300028B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FA2BE312EB30CA300028B3F /* FetchImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageService.swift; sourceTree = "<group>"; };
+		1FA2BE332EB30CA300028B3F /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FA2BE342EB30CA300028B3F /* PictureCollectionViewCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCellPresenter.swift; sourceTree = "<group>"; };
+		1FA2BE362EB30CA300028B3F /* DisplayPicturesCollectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPicturesCollectionInteractor.swift; sourceTree = "<group>"; };
+		1FA2BE372EB30CA300028B3F /* DisplayPicturesCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPicturesCollectionPresenter.swift; sourceTree = "<group>"; };
+		1FA2BE382EB30CA300028B3F /* DisplayPicturesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPicturesCollectionViewController.swift; sourceTree = "<group>"; };
+		1FA2BE492EB30F4D00028B3F /* DisplayPicturesCollectionAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPicturesCollectionAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1FA2BE0B2EB1E7F300028B3F /* Exceptions for "DromTest" folder in "DromTest" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 1FA2BDF82EB1E7F100028B3F /* DromTest */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1FA2BDFB2EB1E7F100028B3F /* DromTest */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1FA2BE0B2EB1E7F300028B3F /* Exceptions for "DromTest" folder in "DromTest" target */,
-			);
-			path = DromTest;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1FA2BDF62EB1E7F100028B3F /* Frameworks */ = {
@@ -45,7 +50,7 @@
 		1FA2BDF02EB1E7F100028B3F = {
 			isa = PBXGroup;
 			children = (
-				1FA2BDFB2EB1E7F100028B3F /* DromTest */,
+				1FA2BE3B2EB30CA300028B3F /* DromTest */,
 				1FA2BDFA2EB1E7F100028B3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +61,81 @@
 				1FA2BDF92EB1E7F100028B3F /* DromTest.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA2BE2C2EB30CA300028B3F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE282EB30CA300028B3F /* AppDelegate.swift */,
+				1FA2BE292EB30CA300028B3F /* Info.plist */,
+				1FA2BE2B2EB30CA300028B3F /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1FA2BE2E2EB30CA300028B3F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE2D2EB30CA300028B3F /* PictureItem.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1FA2BE302EB30CA300028B3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE2F2EB30CA300028B3F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FA2BE322EB30CA300028B3F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE312EB30CA300028B3F /* FetchImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1FA2BE352EB30CA300028B3F /* PictureCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE332EB30CA300028B3F /* PictureCollectionViewCell.swift */,
+				1FA2BE342EB30CA300028B3F /* PictureCollectionViewCellPresenter.swift */,
+			);
+			path = PictureCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1FA2BE392EB30CA300028B3F /* DisplayPicturesCollection */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE352EB30CA300028B3F /* PictureCollectionViewCell */,
+				1FA2BE362EB30CA300028B3F /* DisplayPicturesCollectionInteractor.swift */,
+				1FA2BE492EB30F4D00028B3F /* DisplayPicturesCollectionAssembly.swift */,
+				1FA2BE372EB30CA300028B3F /* DisplayPicturesCollectionPresenter.swift */,
+				1FA2BE382EB30CA300028B3F /* DisplayPicturesCollectionViewController.swift */,
+			);
+			path = DisplayPicturesCollection;
+			sourceTree = "<group>";
+		};
+		1FA2BE3A2EB30CA300028B3F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE392EB30CA300028B3F /* DisplayPicturesCollection */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1FA2BE3B2EB30CA300028B3F /* DromTest */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2BE2C2EB30CA300028B3F /* Application */,
+				1FA2BE2E2EB30CA300028B3F /* Entity */,
+				1FA2BE302EB30CA300028B3F /* Resources */,
+				1FA2BE322EB30CA300028B3F /* Services */,
+				1FA2BE3A2EB30CA300028B3F /* UI */,
+			);
+			path = DromTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +152,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1FA2BDFB2EB1E7F100028B3F /* DromTest */,
 			);
 			name = DromTest;
 			packageProductDependencies = (
@@ -122,6 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA2BE452EB30CA300028B3F /* LaunchScreen.storyboard in Resources */,
+				1FA2BE462EB30CA300028B3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +211,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA2BE3C2EB30CA300028B3F /* AppDelegate.swift in Sources */,
+				1FA2BE3D2EB30CA300028B3F /* PictureItem.swift in Sources */,
+				1FA2BE3E2EB30CA300028B3F /* FetchImageService.swift in Sources */,
+				1FA2BE3F2EB30CA300028B3F /* PictureCollectionViewCell.swift in Sources */,
+				1FA2BE402EB30CA300028B3F /* PictureCollectionViewCellPresenter.swift in Sources */,
+				1FA2BE4A2EB30F4D00028B3F /* DisplayPicturesCollectionAssembly.swift in Sources */,
+				1FA2BE412EB30CA300028B3F /* DisplayPicturesCollectionInteractor.swift in Sources */,
+				1FA2BE422EB30CA300028B3F /* DisplayPicturesCollectionPresenter.swift in Sources */,
+				1FA2BE432EB30CA300028B3F /* DisplayPicturesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FA2BE2B2EB30CA300028B3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA2BE2A2EB30CA300028B3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FA2BE0D2EB1E7F300028B3F /* Debug */ = {
@@ -147,12 +246,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6PXD6WC3AQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DromTest/Info.plist;
+				INFOPLIST_FILE = DromTest/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -161,12 +259,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = v.sklyarov.DromTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -179,12 +281,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6PXD6WC3AQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DromTest/Info.plist;
+				INFOPLIST_FILE = DromTest/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -193,12 +294,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = v.sklyarov.DromTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
